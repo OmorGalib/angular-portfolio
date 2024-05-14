@@ -1,4 +1,11 @@
-.circule {
+.profile_container{
+    position: absolute;
+    top:150px;
+    margin-left: 50px;
+    width: 100%;
+}
+
+.profile {
     border: 15px solid rgb(117, 78, 249);
     height: 450px;
     width: 450px;
@@ -8,7 +15,7 @@
     align-items: center;
     background: white;
 
-    .inner_circule {
+    .img_container {
 
         img {
             height: 300px;
@@ -22,25 +29,19 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .circule {
-        // border: 15px solid rgb(117, 78, 249);
-        border: 10px solid rgb(117, 78, 249);
-        height: 250px;
-        width: 250px;
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: white;
+    .profile_container{
+        top:110px;
+        margin-left: 45px;
+    }
     
-        .inner_circule {
-    
+    .profile {
+        height: 300px;
+        width: 300px;
+        
+        .img_container {
             img {
-                height: 180px;
-                width: 180px;
-                border-radius: 100%;
-                object-fit: cover;
-                border: 10px solid rgb(117, 78, 249);
+                height: 200px;
+                width: 200px;
                
             }
         }
