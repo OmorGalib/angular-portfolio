@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { CARD } from 'src/app/core/db/card.db';
 
 @Component({
   selector: 'app-cards-section',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./cards-section.component.scss']
 })
 export class CardsSectionComponent {
-
+  i: any[] = CARD ;
 }
