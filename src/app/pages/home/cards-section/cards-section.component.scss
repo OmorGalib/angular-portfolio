@@ -1,0 +1,17 @@
+.sub_container {
+    display: flex;
+    justify-content: center;
+}
+
+.cards_sec {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+@media only screen and (max-width: 768px) {
+    .cards_sec {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+}

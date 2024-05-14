@@ -1,1 +1,11 @@
-<p>cards-section works!</p>
+<div class="container">
+    <div class="sub_container">
+        <div class="cards_sec">
+            <ng-container *ngFor="let item of i">
+
+                <app-card [i]="item"></app-card>
+
+            </ng-container>
+        </div>
+    </div>
+</div>
