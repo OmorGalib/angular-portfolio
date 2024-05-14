@@ -7,6 +7,7 @@ import { CardsSectionComponent } from './cards-section/cards-section.component';
 import { CardModule } from 'src/app/shared/components/card/card.module';
 import { ProfileModule } from 'src/app/shared/components/profile/profile.module';
 import { NavbarModule } from 'src/app/shared/components/navbar/navbar.module';
+import { WorkModule } from 'src/app/shared/components/work/work.module';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { NavbarModule } from 'src/app/shared/components/navbar/navbar.module';
     CardModule,
     ProfileModule,
     NavbarModule,
+    WorkModule
   ],
 })
 export class HomeModule {}
