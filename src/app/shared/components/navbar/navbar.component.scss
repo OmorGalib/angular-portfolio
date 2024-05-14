@@ -1,16 +1,17 @@
 // navbar start
 .nav-container{
-    // position: absolute;
-    // top: 0;
-    // left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
 }
 .nav{
     width: 80%;
     // max-width: 1200px;
-    margin: 0px auto;
+    margin: 20px auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: transparent;
     h2{
         font-family: roboto;
@@ -40,6 +41,26 @@
             border: none;
             border-radius: 30px;
         }
+        .nav_menu{
+             display: none;
+        }
     }
 }
 // navbar end
+
+@media (max-width:599px) {
+   
+    .nav{
+        .alink-btn{
+            a{
+                display: none;
+            }
+            button{
+                display: none;
+            }
+            .nav_menu{
+                display: block;
+           }
+        }
+    }
+}
