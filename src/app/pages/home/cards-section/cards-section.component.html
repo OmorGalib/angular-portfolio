@@ -8,4 +8,12 @@
             </ng-container>
         </div>
     </div>
+    <div class="sorry">
+        <ng-container *ngFor="let imageUrl of imageUrls">
+            <img [src]="imageUrl" alt="">
+          </ng-container>
+        <ng-container *ngFor="let imageUrl of imageUrls1">
+            <img [src]="imageUrl" alt="">
+          </ng-container>
+       </div>
 </div>
